@@ -2,12 +2,14 @@
 
 Because of how job boards operate, the pipeline has to be designed to handle **two** completely different ingestion workflows:
 
+```md
                   ┌───► 1. Individual ATS Links (Greenhouse / Workday)
                   │      ↳ Agent lands directly on form, fills it, and pauses.
 ──► TARGETS ──────┤
                   │
                   └───► 2. Aggregators (LinkedIn / Indeed)
                          ↳ Requires an orchestration pattern (Search ──► Loop ──► Apply)
+```
 
 The **Greenhouse** & **Workday** Workflow
 
