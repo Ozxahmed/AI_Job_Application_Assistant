@@ -1,0 +1,46 @@
+default_answers:
+  work_authorization:
+    question_patterns:
+      - "Are you authorized to work in the United States?"
+      - "Are you legally authorized to work in the U.S.?"
+    answer: null
+    needs_user_confirmation: true
+
+  sponsorship_required:
+    question_patterns:
+      - "Will you now or in the future require sponsorship?"
+      - "Do you require visa sponsorship?"
+    answer: null
+    needs_user_confirmation: true
+
+  relocation:
+    question_patterns:
+      - "Are you willing to relocate?"
+      - "Would you relocate for this position?"
+    answer: null
+    needs_user_confirmation: true
+
+  salary_expectation:
+    question_patterns:
+      - "What is your desired salary?"
+      - "What are your compensation expectations?"
+    answer: null
+    needs_user_confirmation: true
+
+  why_interested:
+    question_patterns:
+      - "Why are you interested in this role?"
+      - "Why do you want to work here?"
+    answer: "I am interested in this role because it aligns with my background in {core_skills} and my interest in {company_or_role_reason}."
+    needs_user_confirmation: true
+
+  data_engineering_summary:
+    question_patterns:
+      - "Tell us about your data engineering experience."
+      - "Summarize your relevant background."
+    answer: "I have experience with {core_skills}, building {systems_or_outputs}, and working with stakeholders to turn data into useful business assets."
+    needs_user_confirmation: true
+
+question_memory:
+  instructions: "When an application asks a question that is not covered here, pause and ask the user. After the user answers, add a new entry with the exact question pattern and reusable answer."
+  learned_answers: []

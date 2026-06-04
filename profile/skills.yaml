@@ -1,0 +1,68 @@
+technical_skills:
+  data_engineering:
+    - ETL/ELT
+    - Data modeling
+    - Database architecture
+    - Query optimization
+    - Pipeline validation
+    - Data integrity checks
+    - Analytics-ready SQL views
+  programming:
+    - Python
+    - SQL
+  databases:
+    - PostgreSQL
+  python_libraries:
+    - SQLAlchemy
+  cloud:
+    aws:
+      - IAM
+      - RDS
+      - EC2
+      - ECR
+      - ECS
+      - S3
+      - WorkSpaces
+  orchestration_devops:
+    - Apache Airflow
+    - Docker
+    - Git
+    - GitHub
+  analytics_bi:
+    - Looker
+    - QuickBase
+    - Excel
+  business_domains:
+    - Finance
+    - Operations
+    - Logistics
+    - International trade
+    - Sales
+    - Education oversight
+  currently_learning:
+    - Snowflake
+    - dbt
+    - Databricks
+    - AI-enabled workflows
+
+professional_skills:
+  - Stakeholder communication
+  - Collaboration
+  - Adaptability
+  - Leadership
+  - Mentorship
+  - Agile/Scrum
+  - Business analysis
+  - Documentation
+  - Incident support
+
+experience_estimates:
+  python_years: 2
+  sql_years: 5
+  postgresql_years: 5
+  aws_years: 4
+  airflow_years: 2
+  docker_years: 1
+  looker_years: 2
+
+source_note: "Experience estimates were confirmed by the user on 2026-06-04."

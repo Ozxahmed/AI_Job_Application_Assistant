@@ -1,5 +1,7 @@
 # AI_resume_filling_agent
 
+This project is a human-in-the-loop browser automation tool that helps fill repetitive job application forms from a structured applicant profile. The goal is not to mass-submit applications, but to reduce manual form entry while preserving user review and final submission control.
+
 Because of how job boards operate, the pipeline has to be designed to handle **two** completely different ingestion workflows:
 
 ```md

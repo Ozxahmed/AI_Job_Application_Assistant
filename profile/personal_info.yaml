@@ -1,0 +1,70 @@
+personal:
+  name: Ozair Ahmed
+  preferred_name: Oz
+  email: ozair.x.ahmed@gmail.com
+  phone: "(281)415-7494"
+  location:
+    city: Alton
+    state: IL
+    country: United States
+  linkedin: "https://linkedin.com/in/ozxahmed/"
+  github: "https://github.com/Ozxahmed"
+  portfolio: null
+
+links:
+  linkedin: "https://linkedin.com/in/ozxahmed/"
+  github: "https://github.com/Ozxahmed"
+  abc_store_project: "https://github.com/Ozxahmed/abc_store"
+  dividend_stock_portfolio: "https://github.com/Ozxahmed/dividend_stock_portfolio"
+
+work_authorization:
+  authorized_to_work_us: true
+  requires_sponsorship_now_or_future: false
+  default_answer: "I am authorized to work in the United States and do not require sponsorship now or in the future."
+
+job_search:
+  open_to_relocation: true
+  relocation_preference:
+    willing_to_relocate: true
+    default_answer: "Open to relocation depending on location, role fit, and overall opportunity."
+
+  preferred_locations:
+    - Remote
+    - Hybrid
+    - Atlanta, GA
+    - St. Louis, MO
+    - Chicago, IL
+    - Greater Tampa Bay Area, FL
+    - Denver, CO
+    - Washington, D.C. metro area
+
+  remote_preference:
+    prefers_remote: true
+    work_arrangement_preference: "Remote or hybrid preferred; open to onsite depending on location, role fit, and overall opportunity."
+
+  preferred_compensation:
+    default_answer: "Targeting $110,000–$130,000 base salary, depending on role scope, location, benefits, bonus/equity, and overall compensation package."
+    flexible_answer: "Open to discussing compensation based on role scope, location, growth opportunity, and total compensation package."
+    forced_numeric_answer_usd: 120000
+    currency: USD
+    compensation_type: base_salary
+
+  target_titles:
+    - Data Engineer
+    - Analytics Engineer
+    - Data Platform Engineer
+    - Business Intelligence Analyst
+    - BI Developer
+    - Data Analyst
+
+  target_domains:
+    - Data engineering
+    - Analytics engineering
+    - Analytics and business intelligence
+    - Cloud data systems
+    - Data platform development
+    - AI-enabled data workflows
+
+source:
+  resume_file: profile/resume.pdf
+  last_profile_update: "2026-06-04"

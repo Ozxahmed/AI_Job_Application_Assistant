@@ -1,0 +1,79 @@
+default_answers:
+  work_authorization:
+    question_patterns:
+      - "Are you authorized to work in the United States?"
+      - "Are you legally authorized to work in the U.S.?"
+    answer: "Yes"
+    needs_user_confirmation: false
+
+  sponsorship_required:
+    question_patterns:
+      - "Will you now or in the future require sponsorship?"
+      - "Do you require visa sponsorship?"
+    answer: "No"
+    needs_user_confirmation: false
+
+  relocation:
+    question_patterns:
+      - "Are you willing to relocate?"
+      - "Would you relocate for this position?"
+    answer: "Open to relocation for the right opportunity."
+    needs_user_confirmation: false
+
+  preferred_compensation:
+    question_patterns:
+      - "What is your desired salary?"
+      - "What are your compensation expectations?"
+      - "What is your expected salary?"
+      - "What are your salary requirements?"
+    answer: "Targeting between $110,000 and $130,000 base salary, depending on role scope, location, benefits, bonus/equity, and overall compensation package."
+    forced_numeric_answer: 120000
+    forced_numeric_answer_usd: 120000
+    needs_user_confirmation: false
+    note: "Use the written answer when free text is allowed. Use 120000 for fields that require a numeric salary value."
+
+  sql_experience_years:
+    question_patterns:
+      - "How many years of SQL experience do you have?"
+    answer: "5 years"
+    needs_user_confirmation: false
+
+  python_experience_years:
+    question_patterns:
+      - "How many years of Python experience do you have?"
+    answer: "2 years"
+    needs_user_confirmation: false
+
+  airflow_experience_years:
+    question_patterns:
+      - "How many years of Airflow experience do you have?"
+    answer: "2 years"
+    needs_user_confirmation: false
+
+  postgresql_experience_years:
+    question_patterns:
+      - "How many years of PostgreSQL experience do you have?"
+    answer: "5 years"
+    needs_user_confirmation: false
+
+  aws_experience_years:
+    question_patterns:
+      - "How many years of AWS experience do you have?"
+    answer: "4 years"
+    needs_user_confirmation: false
+
+  docker_experience_years:
+    question_patterns:
+      - "How many years of Docker experience do you have?"
+    answer: "1 year"
+    needs_user_confirmation: false
+
+  looker_experience_years:
+    question_patterns:
+      - "How many years of Looker experience do you have?"
+    answer: "2 years"
+    needs_user_confirmation: false
+
+question_memory:
+  instructions: "When an application asks a question that is not covered here, pause and ask the user. After the user answers, add a new entry with the exact question pattern and reusable answer."
+  learned_answers: []

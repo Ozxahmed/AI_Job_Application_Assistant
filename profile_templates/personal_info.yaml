@@ -1,0 +1,34 @@
+personal:
+  name: "Your Full Name"
+  preferred_name: "Your Preferred Name"
+  email: "you@example.com"
+  phone: "(000) 000-0000"
+  location:
+    city: "City"
+    state: "State"
+    country: "Country"
+  linkedin: "https://linkedin.com/in/your-profile"
+  github: "https://github.com/your-username"
+  portfolio: null
+
+links:
+  linkedin: "https://linkedin.com/in/your-profile"
+  github: "https://github.com/your-username"
+  portfolio: null
+
+work_authorization:
+  authorized_to_work_us: null
+  requires_sponsorship_now_or_future: null
+
+job_search:
+  open_to_relocation: null
+  preferred_locations: []
+  remote_preference: null
+  target_titles:
+    - "Target Job Title"
+  target_domains:
+    - "Target Domain"
+
+source:
+  resume_file: profile/resume.pdf
+  last_profile_update: null

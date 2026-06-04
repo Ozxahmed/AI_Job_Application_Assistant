@@ -1,0 +1,42 @@
+technical_skills:
+  data_engineering:
+    - ETL/ELT
+    - Data modeling
+    - Query optimization
+  programming:
+    - Python
+    - SQL
+  databases:
+    - PostgreSQL
+  cloud:
+    aws:
+      - S3
+      - RDS
+      - EC2
+  orchestration_devops:
+    - Apache Airflow
+    - Docker
+    - Git
+  analytics_bi:
+    - Looker
+    - Excel
+  business_domains:
+    - "Domain 1"
+    - "Domain 2"
+  currently_learning: []
+
+professional_skills:
+  - Stakeholder communication
+  - Collaboration
+  - Documentation
+
+experience_estimates:
+  python_years: null
+  sql_years: null
+  postgresql_years: null
+  aws_years: null
+  airflow_years: null
+  docker_years: null
+  looker_years: null
+
+source_note: "Replace null values with confirmed experience estimates."
