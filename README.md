@@ -28,8 +28,8 @@ The **LinkedIn** & **Indeed** Workflow
 
 ### MVP
 
-1. The **Baseline** Payload: A Python dictionary or markdown file containing standard personal details, contact links, and core technical experience block/resuem.
+1. [x] The **Baseline** Payload: Structured applicant profile files containing standard personal details, contact links, and core technical experience block/resume, etc under `profile/`. Public starter templates under `profile_templates/`.
 
-2. The **Human-in-the-Loop** Safeguard: The agent will run with headless=False (meaning the browser pops up on the monitor). It will fill everything out and stop at the final submit page. Once the work is reviewed and confirmed, user can submit the application and close the window.
+2. [*] The **Human-in-the-Loop** Safeguard: The agent will run with headless=False (meaning the browser pops up on the monitor). It will fill everything out and stop at the final submit page. Once the work is reviewed and confirmed, user can submit the application and close the window.
 
-3. MVP **Target**: A standard Greenhouse or Workday job link will be used first to prove out the parser before scaling to platform searches.
+3. [ ] MVP **Target**: A standard Greenhouse or Workday job link will be used first to prove out the parser before scaling to platform searches.

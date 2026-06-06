@@ -1,2 +1,5 @@
 # requirements.txt
 ruff
+langchain-openai==1.2.2
+openai==2.41.0
+browser-use==0.12.9

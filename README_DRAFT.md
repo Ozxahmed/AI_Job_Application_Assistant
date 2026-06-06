@@ -16,7 +16,7 @@ profile/
   skills.yaml
   questions.yaml
   resume.pdf
-  cover_letter_info.md
+  cover_letter_building_blocks.md
 ```
 
 Public starter templates live in `profile_templates/` so other users can copy them into their own private `profile/` folder.
@@ -35,7 +35,7 @@ Public starter templates live in `profile_templates/` so other users can copy th
 
 `profile/resume.pdf` stores the source resume used by the assistant.
 
-`profile/cover_letter_info.md` stores a short reusable background summary, cover statement, strongest themes, and role-specific adaptation notes for "why this role" and brief cover statement fields.
+`profile/cover_letter_building_blocks.md` stores reusable background material for short, role-specific cover statements. It includes generation rules, core background ingredients, reusable themes, role-specific emphasis, sentence fragments, and short statement templates.
 
 ## Question-Answer Memory
 
@@ -59,9 +59,11 @@ The MVP should keep cover statement generation simple. The assistant can generat
 - company name
 - job description
 - the applicant's core experience block
-- reusable themes from `profile/cover_letter_info.md`
+- reusable themes from `profile/cover_letter_building_blocks.md`
 
 The goal is a clear, useful paragraph, not a perfect cover letter.
+
+The assistant should use the building blocks as source material, not copy them word-for-word. It should choose the most relevant themes for the job description, keep the response short, avoid exaggerating experience, and avoid claiming tools that are not present in the applicant profile or resume. It should not mention career gaps unless directly asked.
 
 Example:
 
@@ -96,7 +98,7 @@ These platforms wrap applications in their own interfaces. Two approaches are po
 4. Form filling for a standard Greenhouse or Workday posting first.
 5. Pause before final submission.
 6. Question-answer memory for common application questions.
-7. Simple brief cover statement generation from role details and reusable profile context.
+7. Simple brief cover statement generation from role details and reusable cover letter building blocks.
 
 ## Safety Principles
 
